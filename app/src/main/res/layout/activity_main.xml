@@ -29,17 +29,17 @@
         android:hint="비밀번호입력"
         android:inputType="numberPassword"/>
 
-    <TextView
+    <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="닉네임 검색"/>
-    <EditText
+        android:text="자동 로그인"
+        android:checked="true"/>
+
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="찾아볼 상대방의 닉네임을 입력해라"
-        android:singleLine="true"
+        android:text="로그인"/>
 
-        android:imeOptions="actionSearch"/>
 
 
 
