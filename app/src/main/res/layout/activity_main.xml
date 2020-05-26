@@ -29,6 +29,16 @@
         android:hint="비밀번호입력"
         android:inputType="numberPassword"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임 검색"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="찾아볼 상대방의 닉네임을 입력해라"
+        android:singleLine="true"
+        android:imeOptions="actionSearch"/>
 
 
 
